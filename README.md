@@ -7,11 +7,11 @@ I am a fan of the light mode in Windows 11. However, it can be a bit too much wh
 # Requirements
 * Download the files from this repository and save them to `C:\Scripts\Set-WindowsColorMode`
 * (Optional) Create an account and request an API key at [Weerlive](https://weerlive.nl/delen.php)
-* Edit the Settings.ps1 file and:
-  * Replace `<API KEY>` with the API you received
-  * Replace `<CITY>` with the name of the city where you are based
-  * Optionally change different wallpapers for light and dark modes
-* Save the Settings.ps1 file
+  * Edit the Settings.ps1 file and:
+    * Replace `<API KEY>` with the API you received
+    * Replace `<CITY>` with the name of the city where you are based
+    * Optionally change different wallpapers for light and dark modes
+  * Save the Settings.ps1 file
 * Start a elevated PowerShell prompt, browse to the folder you have stored the scripts, and run the following command:
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -ErrorAction SilentlyContinue
